@@ -24,7 +24,9 @@ void loop()
         analogWrite(GREEN, greenValue);
     };
 };
-Led(50, 60, 70) void Led(RED, BLUE, GREEN)
+Led(50, 60, 70)
+
+    void Led(RED, BLUE, GREEN)
 {
     redValue = RED;
     greenValue = GREEN;
